@@ -1,0 +1,70 @@
+.review-collection{
+    height: 400px;
+    width: 100%;
+    background: rgba(231, 242, 253,0.5);
+    position: relative;
+}
+.review-container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+.review-info img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    object-fit: cover;
+}
+.review-info h3{
+    color: #041e39;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.review-info ul{
+    list-style-type: none;
+}
+
+.review-info ul li{
+    float: left;
+    margin-left: 5px;
+    color: #ffad33;
+}
+.person-info{
+    padding: 14px 14px;
+    opacity: 0.2;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(231, 242, 253,0.5);
+    transition: 0.3s;
+}
+.person-info:hover{
+    opacity: 1;
+    background: #fff;
+    border-bottom: 2px solid #ffad33;
+}
+.person-info h5{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #041e39;
+}
+
+.person-info h6{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffad33;
+}
+
+#personTwo{
+    opacity: 1;
+    background: #fff;
+    border-bottom: 2px solid #ffad33;
+}
+
+.large-quote {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 270px;
+    color: #041e39;
+    opacity: 0.2;
+}

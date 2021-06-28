@@ -1,0 +1,65 @@
+.about-container{
+    height: 800px;
+    width: 100%;
+    background: #fff;
+}
+
+.about-container img{
+    height: 500px;
+}
+
+.about-container-content{
+    height: 100%;
+}
+
+.about-us-header{
+    position: relative;
+}
+.about-us-header h6{
+    color: #ffad33;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.about-line{
+    width: 30px;
+    height: 3px;
+    background: #ffad33;
+    margin-top: 8px;
+}
+.about-main h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #041e39;
+    text-transform: uppercase;
+}
+
+.about-main p{
+    color: #041e39;
+}
+
+.progress-container{
+    position: relative;
+}
+.award-icon{
+    font-size: 40px;
+    position: absolute;
+    color: #041e39;
+    top: 30px;
+    left: 42px;
+}
+.globe-icon{
+    font-size: 40px;
+    position: absolute;
+    color: #041e39;
+    top: 30px;
+    left: 38px;
+}
+.about-progress h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffad33;
+}
+.progress-main-content h5{
+    font-weight: bolder;
+    text-transform: uppercase;
+}

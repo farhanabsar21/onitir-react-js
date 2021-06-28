@@ -1,0 +1,39 @@
+.case-study-container{
+    background: #fff;
+    height: 900px;
+    width: 100%;
+}
+
+.case-study-content {
+    height: 700px;
+}
+
+.case-study-header h6{
+    font-weight: bolder;
+    color: #ffad33;
+    text-transform: uppercase;
+}
+
+.case-study-header h2{
+    font-weight: bolder;
+    color: #041e39;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.case-study-content {
+    width: 75%;
+    margin: 0 auto;
+}
+.case-study-content img{
+    margin-top: 20px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.case-study-content img:hover{
+    opacity: 0.8;
+}
+.two-row{
+    width: 100%;
+}

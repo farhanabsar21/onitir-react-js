@@ -1,0 +1,113 @@
+.skillset-container{
+    height: 600px;
+    width: 100%;
+    background: rgba(231, 242, 253,0.5);
+    position: relative;
+}
+
+.skillset-main-content{
+    height: 600px;
+    width: 100%;
+}
+
+.skillset-container-btn{
+    position: relative;
+    width: fit-content;
+}
+
+.skillset-container-btn img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.skillset-container-btn button {
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    background: #ffad33;
+    color: #041e39;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.skillset-content{
+    width: 75%;
+    margin: 0 auto;
+}
+.center-line-btn{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skillset-header{
+    position: relative;
+}
+.skillset-header h5{
+    font-weight: bolder;
+    color: #ffad33;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.skillset-border-line{
+    width: 30px;
+    height: 3px;
+    background: #ffad33;
+    position: absolute;
+    top: 10px;
+}
+
+.skillset-main-content h2{
+    font-weight: bolder;
+    color: #041e39;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.skillset-main-content h6{
+    font-weight: bolder;
+    color: #041e39;
+    text-transform: uppercase;
+}
+.progress-info{
+    width: 100%;
+    height: 10px;
+    background: #eee;
+}
+#progressOne .progress-bar{
+    height: 100%;
+    background: #ffad33;
+    width: 72%;
+}
+#progressTwo .progress-bar{
+    height: 100%;
+    background: #ffad33;
+    width: 81%;
+}
+#progressThree .progress-bar{
+    height: 100%;
+    background: #ffad33;
+    width: 45%;
+}
+
+.skillset-image{
+    position: relative;
+}
+.skillset-image img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.skill-triangle img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 0;
+}

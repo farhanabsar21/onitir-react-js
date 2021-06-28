@@ -1,0 +1,77 @@
+.office-tour{
+    width: 100%;
+    height: 900px;
+    background: #fff;
+}
+.office-video-container{
+    height: 400px;
+    position: relative;
+}
+.office-tour-back {
+    background-image: url("../assets/tour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+    box-shadow: inset 500px 500px 0 0 rgba(4, 30, 57, 0.5);
+}
+.office-tour-content{
+    height: 100%;
+    color: #fff;
+    background: #041e39;
+}
+
+.office-video-container button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 72px;
+    height: 70px;
+    background: #ffad33;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mare-circle{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(255, 173, 51, 0.5);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.intro-content{
+    position: relative;
+}
+.intro-content h6{
+    color: #ffad33;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+.intro-border-line{
+    height: 3px;
+    width: 30px;
+    background: #ffad33;
+    position: absolute;
+    top: 8px;
+}
+.office-tour-content-width{
+    width: 80%;
+}
+
+.office-tour-content-width h2{
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.employee-container{
+    height: 500px;
+}

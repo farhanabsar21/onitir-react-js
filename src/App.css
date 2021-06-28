@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/* #041e39 */
+.Header{
+    height: 750px;
+    width: 100%;
+    background-image: url("./assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sub navbar */
+.sub-navbar{
+    height: 40px;
+    width: 100%;
+}
+.sub-navbar-info{
+    color: #fff;
+    width: 25%;
+}
+.social-container ul{
+    list-style-type: none;
+}
+.social-container ul li {
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* main nav bar*/
+
+.main-nav{
+    height: 90px;
+    background: #fff;
+    width: 100%;
+}
+
+.menu-logo img{
+    height: 50px;
+}
+
+.item-info ul{
+    list-style-type: none;
+}
+
+.item-info ul li {
+    float: left;
+    margin-left: 40px;
+    font-weight: bold;
+    color: #041e39;
+    cursor: pointer;
+}
+.get-quote-btn{
+    position: relative;
+}
+
+.get-quote-btn img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.get-quote-btn button {
+    outline: none;
+    border: none;
+    padding: 10px 24px;
+    background: #fff;
+    color: #041e39;
+    font-weight: 600;
+    border: 1px solid #ddd;
+}
+
+.get-quote-toggle button{
+    outline: none;
+    border: none;
+    padding: 11px 22px;
+    color: #fff;
+    background: #ffad33;
+    margin-left: 10px;
+}
+
+/* header content*/
+
+.header-content{
+    height: 550px;
+    width: 100%;
+}
+
+.header-content h1{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-content p{
+    border-left: 3px solid #ffad33;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header-content button{
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.get-started-btn{
+    position: relative;
+}
+.get-started-btn img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.get-started-btn button{
+    background: #ffad33;
+    padding: 12px 30px;
+    color: #041e39;
+    border: 1px solid #ffad33;
+}
+.learn-more-btn{
+    position: relative; 
+}
+
+.learn-more-btn img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.learn-more-btn button{
+    background: inherit;
+    padding: 12px 24px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 15px;
+}
+

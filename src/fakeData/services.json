@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "https://img.icons8.com/wired/64/000000/combo-chart.png",
+        "title": "Data research analysis",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illum repellendus blanditiis repudiandae, vero eius."
+    },
+    {
+        "icon": "https://img.icons8.com/wired/64/000000/mind-map.png",
+        "title": "Data research analysis",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illum repellendus blanditiis repudiandae, vero eius."
+    },
+    {
+        "icon": "https://img.icons8.com/wired/64/000000/europe.png",
+        "title": "Maintenance & data sent",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illum repellendus blanditiis repudiandae, vero eius."
+    }
+]

@@ -1,0 +1,33 @@
+.employee-data{
+    position: relative;
+}
+.employee-data img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.employee-info{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.employee-info h6{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.employee-info strong {
+    color: #ffad33;
+    text-transform: uppercase;
+}
+
+.employee-data button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: #041e39;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

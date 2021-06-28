@@ -1,0 +1,35 @@
+.social-media{
+    height: 100px;
+    width: 100%;
+    background: #09161f;
+}
+.media-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.media-container img{
+    height: 50px;
+}
+
+.social-icon{
+    float: left;
+    padding: 14px 18px;
+    background: #15222b;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social-icon:hover{
+    background: #ffad33;
+    color: #052548;
+}
+.social-icon:first-child{
+    padding: 14px 22px;
+}
+
+.social-icon:last-child{
+    padding: 14px 20px;
+}

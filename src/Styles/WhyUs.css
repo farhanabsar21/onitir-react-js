@@ -1,0 +1,101 @@
+.whyus-header{
+    position: relative;
+}
+.whyus-header h6{
+    color: #ffad33;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.whyus-header h2{
+    color: #041e39;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.choose-border-line{
+    width: 30px;
+    height: 3px;
+    background: #ffad33;
+    position: absolute;
+    top: 7px;
+}
+.whyus-header-btn{
+    position: relative;
+} 
+.whyus-header-btn button{
+    outline: none;
+    border: none;
+    padding: 12px 26px;
+    background: #ffad33;
+    color: #041e39;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.whyus-header-btn img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+/* why us data*/
+
+.left-service-data{
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    z-index: 3;
+    position: relative;
+}
+.left-service-data h6{
+    font-weight: bold;
+    font-size: 18px;
+    color: #041e39;
+} 
+.left-service-data .svg-inline--fa{
+    color: #ffad33;
+    margin-right: 10px;
+}
+.left-service-data p{
+    color: #041e39;
+}
+
+.right-service-data{
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-left: -30px;
+    z-index: 3;
+    position: relative;
+}
+.right-service-data h6{
+    font-weight: bold;
+    font-size: 18px;
+    color: #041e39;
+} 
+.right-service-data .svg-inline--fa{
+    color: #ffad33;
+    margin-right: 10px;
+}
+.right-service-data p{
+    color: #041e39;
+}
+.why-us-img{
+    position: relative;
+}
+.why-us-img img{
+    height: 500px;
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    z-index: 0;
+}
